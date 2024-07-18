@@ -1,0 +1,89 @@
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: rgba(37, 33, 40, 1);
+  color: white;
+
+  .intro-left-section h1{
+    color:rgba(174, 188, 207, 1);
+  };
+
+  .cizgi span {
+    color: rgba(183, 170, 255, 1);
+  }
+
+  #hire-me {
+    background-color: rgba(225, 225, 255, 1);
+    border-color: rgba(225, 225, 255, 1);
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  #its-me {
+    color: rgba(255, 255, 255, 1);
+ };
+  .intro-contact button {
+    background-color: rgba(56, 56, 56, 1);
+    color: rgba(225, 225, 255, 1);
+    border-color: rgba(225, 225, 255, 1);
+  };
+
+  #skills-baslik{
+    color:rgba(174, 188, 207, 1);
+  }
+  #skill-baslik{
+    color:rgba(183, 170, 255, 1);  };
+
+  #skill-aciklama{
+    color:rgba(255, 255, 255, 1);
+  }
+
+  #profile-baslik{
+    color:rgba(174, 188, 207, 1);
+  }
+  
+  .profile h4{
+    color:rgba(183, 170, 255, 1);
+  }
+
+  .profile-right-section p{
+    color:rgba(255, 255, 255, 1);
+  }
+
+  #projects-baslik {
+    color: rgba(174, 188, 207, 1);
+  }
+
+  .project-container h4{
+    color:rgba(207, 203, 255, 1);
+  }
+
+  #project-aciklama{
+    color:rgba(255, 255, 255, 1);
+  }
+
+  .teknolojiler button {
+    background-color: rgba(56, 56, 56, 1);
+    color: rgba(143, 136, 255, 1);
+  }
+
+  .links button {
+    color: rgba(225, 225, 255, 1);
+  }
+
+  .footer{
+    background-color: rgba(20, 20, 20, 1);
+  }
+
+  .container-footer h3 {
+    color: rgba(174, 188, 207, 1);
+  }
+
+  .contact p {
+    color: rgba(186, 178, 231, 1);
+  }
+
+
+}

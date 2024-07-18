@@ -3,4 +3,21 @@
     flex-direction: column;
     width: 100%;
    
+
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+}
+
+/* .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.footer{
+    background-color: beige;
+   margin-top: 8rem;
 }
