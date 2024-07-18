@@ -1,18 +1,22 @@
+import "../css/Project.css";
+import { useTranslation } from "react-i18next";
+
 export default function Project({ proje }) {
+  const { t } = useTranslation();
   return (
     <>
-      <div>
-        <p>{proje.img}</p>
+      <div className="project-container">
+        <img src={proje.img} alt={proje.ad} />
         <h4>{proje.ad}</h4>
-        <p>{proje.description}</p>
+        <p id="project-aciklama">{proje.description}</p>
         <div className="teknolojiler">
-          <p>react</p>
-          <p>redux</p>
-          <p>axios</p>
+          <button>react</button>
+          <button>redux</button>
+          <button>axios</button>
         </div>
-        <div>
-          <p>Github</p>
-          <p>View Site</p>
+        <div className="links">
+          <button>Github</button>
+          <button>{t("View Site")}</button>
         </div>
       </div>
     </>
